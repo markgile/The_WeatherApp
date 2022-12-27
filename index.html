@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="search_form">
+        <input type="search" placeholder="Enter Location" id="search_input" required autocomplete="off"/>
+        <br>
+    </br>
+    <button id="search_btn">Search</button>
+    </form>
+    <main id="app-con">
+        <div id="location">
+            <p>-----------</p>
+        </div>
+        <div id="temp">
+         <img src="./Icons/Sunny.svg" alt="" id="temp-icon">
+         <p><span id="temp-value">-----</span> <span id="temp-unit"> °c </span></p>
+        </div>
+
+        <div id="climate">
+            <p>--------</p>
+        </div>
+
+    </main>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
